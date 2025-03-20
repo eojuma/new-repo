@@ -7,7 +7,7 @@ I will make short notes here on how to use git to keep track of every changes th
 This will be very appealing to my fellow Git beginners.
 
 
-Once again welcome friends.
+# Once again welcome friends.
 
 
 Thank you!
