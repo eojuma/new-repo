@@ -33,3 +33,8 @@ This can also be remotely,immediately after a successful merge,you will be asked
 
 # Update the main branch
 To see the changes made after merging the two branches,git pull, while on the main branch.
+Before deleting the feature branch we can also see the changes made on the main branch using ~git diff feature-branchname~
+At this point remember the changes have not been made remotely and the feature branch is still existing.
+
+# All commits
+To have access to all commits to a given repo since existence,use git log
