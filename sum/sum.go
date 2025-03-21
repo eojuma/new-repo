@@ -7,11 +7,17 @@ func main() {
 	b:=24
 	fmt.Println(sum(a, 8))
 	fmt.Println(mult(2, b))
+	fmt.Println(subt(a, b))
 }
 
 func sum(a, b int) int {
 	return a + b
 }
+
 func mult(a,b int)int{
 	return a*b
+}
+
+func subt(a,b int)int{
+	return a-b
 }
