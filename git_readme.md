@@ -1,5 +1,5 @@
 # New file
-This file is basically for learning.
+This file is basically for learning Git.
 I will make short notes here on how to use git to keep track of every changes that you make on your files.
 This will be very appealing to my fellow Git beginners.
 
