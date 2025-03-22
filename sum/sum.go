@@ -28,13 +28,6 @@ func subt(a,b int)int{
 	return a-b
 }
 
-
-
-
-
-
-
-
 func div(a,b int)int{
 	return a/b
 }
