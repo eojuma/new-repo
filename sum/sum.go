@@ -8,7 +8,7 @@ func main() {
 	fmt.Println(sum(a, 8))
 	fmt.Println(mult(2, b))
 	fmt.Println(subt(a, b))
-	fmt.Println(div(a, b))
+	fmt.Println(div(23.4, 7.5))
 
 }
 
@@ -24,6 +24,6 @@ func subt(a,b int)int{
 	return a-b
 }
 
-func div(a,b int)int{
+func div(a,b float64)float64{
 	return a/b
 }
