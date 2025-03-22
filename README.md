@@ -23,6 +23,14 @@ Git add filename
 Git commit -m "updates"
 Git push -u origin feature-branchname
 
+# Git workflow
+Git addd filename
+Git commit -m "message"
+Git push
+NOTE:-Once a file has been commited,any changes that will bwe made later can simply be added and commited simulteneouly;
+We use git commit -am "message"---->this action both add and commits the changes made
+Then push the changes to the remote repository. 
+
 # Merge remotely
 Go to your Git website host e.g GitHub,GitLab,BitBucket... and make a pull request(PR),follow the prompts to merge 
 the master and the feature branch contents.
