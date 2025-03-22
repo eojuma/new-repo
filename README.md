@@ -27,8 +27,8 @@ Git push -u origin feature-branchname
 Git addd filename
 Git commit -m "message"
 Git push
-NOTE:-Once a file has been commited,any changes that will bwe made later can simply be added and commited simulteneouly;
-We use git commit -am "message"---->this action both add and commits the changes made
+NOTE:-Once a file has been commited,any changes that will be made later can simply be added and commited simulteneouly;
+We use git commit -am "message"---->this action both adds and commits the changes made(does not work for new files)
 Then push the changes to the remote repository. 
 
 # Merge remotely
