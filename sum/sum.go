@@ -24,6 +24,6 @@ func subt(a,b int)int{
 	return a-b
 }
 
-func div(a,b int)int{
+func div(a,b float64)float64{
 	return a/b
 }
