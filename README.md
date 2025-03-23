@@ -74,5 +74,8 @@ At this point remember the changes have not been made remotely and the feature b
 ### All commits
 To have access to all commits to a given repo since existence,use git log
 
+[GitHub](evansodhiambo658@gmail.com)
+
 [GitHub](https://github.com)
+
 
