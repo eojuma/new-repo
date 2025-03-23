@@ -30,5 +30,5 @@ func div(a, b float64) float64 {
 }
 
 func mod(a, b int) int {
-	return a % b
+	return (a % b)
 }
