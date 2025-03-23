@@ -8,6 +8,7 @@ This will be very appealing to my fellow Git beginners.
 ## 21st March 2025
 ### Branching in Git
 *A branch is basically a separate line of development of the codebase.
+
 *I have learnt how to create git branches,how to add,commit and merge to the main branch.
 
 ### Creating a new branch
@@ -25,9 +26,8 @@ While on the main/master branch,switch to the feature branch created using(git c
 
 Make whatever developments you're up to.
 
-Git add filename
-
-Git commit -m "updates"
+-Git add filename
+-Git commit -m "updates"
 
 Git push -u origin feature-branchname
 
