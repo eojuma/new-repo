@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(mult(2, b))
 	fmt.Println(subt(a, b))
 	fmt.Println(div(23.4, 7.5))
+	fmt.Println(mod(a, b))
 
 }
 
@@ -26,4 +27,9 @@ func subt(a, b int) int {
 
 func div(a, b float64) float64 {
 	return a / b
+}
+
+func mod(a, b int) int {
+	return (a % b)
+	// returns the remainder
 }
