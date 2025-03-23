@@ -35,6 +35,12 @@ Then push the changes to the remote repository.
 Go to your Git website host e.g GitHub,GitLab,BitBucket... and make a pull request(PR),follow the prompts to merge 
 the master and the feature branch contents.
 
+# Merge locally
+To merge locally,switch to the feature-branch from where yo want to make the changes.
+Make the necessary changes,add and commit while on the same branch.
+When pushing from the feature-branch you'll be guided on how to merge remotely.
+To merge locally,git merge maser/main branch,switch to the main branch and git pull to see the changes made.
+
 # Deleting the feature branch
 Once the two branches are merged,locally delete the feature branch using;git branch -d feature-branchname
 This can also be remotely,immediately after a successful merge,you will be asked if you want delete the feature branch.
