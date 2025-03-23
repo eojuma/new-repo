@@ -1,3 +1,5 @@
+## 21st March 2025
+
 # GIT AND WORKFLOW
 This file is basically for learning Git.
 
@@ -195,7 +197,7 @@ By combining these features, you can create a visually appealing and highly info
 
 
 
-## 21st March 2025
+## 22nd March 2025
 # GIT BRANCHING
 *A branch is basically a separate line of development of the codebase.
 
@@ -265,7 +267,7 @@ At this point remember the changes have not been made remotely and the feature b
 ### All commits
 To have access to all commits to a given repo since existence,use git log
 
-## 23rd March 2025
+
 
 
 
