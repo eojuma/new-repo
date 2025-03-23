@@ -33,3 +33,6 @@ func mod(a, b int) int {
 	return (a % b)
 	// returns the remainder
 }
+
+// The workflow is amazing and by the end of the month I
+//  should be able to understand at least 85 per cent of information pertaining Git.
