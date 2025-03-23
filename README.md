@@ -238,12 +238,12 @@ We use git commit -am "message"---->this action both adds and commits the change
 
 Then push the changes to the remote repository. 
 
-### Merge remotely
+### Merging remotely
 Go to your Git website host e.g GitHub,GitLab,BitBucket... and make a pull request(PR),follow the prompts to merge 
 
 the master and the feature branch contents.
 
-### Merge locally
+### Merging locally
 To merge locally,switch to the feature-branch from where yo want to make the changes.
 
 Make the necessary changes,add and commit while on the same branch.
