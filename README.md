@@ -33,7 +33,7 @@ Git commit -m "updates"
 Git push -u origin feature-branchname
 
 # Git workflow
-Git addd filename
+Git add filename
 
 Git commit -m "message"
 
