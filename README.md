@@ -38,7 +38,7 @@ the master and the feature branch contents.
 # Merge locally
 To merge locally,switch to the feature-branch from where yo want to make the changes.
 Make the necessary changes,add and commit while on the same branch.
-When pushing from the feature-branch you'll be guided on how to merge remotely.
+When pushing from the feature-branch(git push -u origin feature-branch) you'll be guided on how to merge remotely.
 To merge locally,git merge maser/main branch,switch to the main branch and git pull to see the changes made.
 
 # Deleting the feature branch
