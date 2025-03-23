@@ -7,9 +7,8 @@ This will be very appealing to my fellow Git beginners.
 
 ## 21st March 2025
 ### Branching in Git
-A branch is basically a separate line of development of the codebase.
-
-I have learnt how to create git branches,how to add,commit and merge to the main branch.
+*A branch is basically a separate line of development of the codebase.
+*I have learnt how to create git branches,how to add,commit and merge to the main branch.
 
 ### Creating a new branch
 To create a new branch;use git checkout -b branchname--->This creates a new branch and immediately 
