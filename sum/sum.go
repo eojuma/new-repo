@@ -39,3 +39,6 @@ func mod(a, b int) int {
 
 //They say that coding needs critical thinking not fast hands but then i think it neds both critical thinking and fast hands too.
 //What do you think?
+
+//The first attempt to anything new is difficult,but then as days go by things get easier,clearer and eventually very familiar.
+//Do agree?
