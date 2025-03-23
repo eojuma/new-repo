@@ -76,6 +76,6 @@ To have access to all commits to a given repo since existence,use git log
 
 [GitHub](evansodhiambo658@gmail.com)
 
-[GitHub](https://github.com)
+[Emailaddress](https://github.com)
 
 
