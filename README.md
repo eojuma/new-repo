@@ -27,6 +27,7 @@ While on the main/master branch,switch to the feature branch created using(git c
 Make whatever developments you're up to.
 
 -Git add filename
+
 -Git commit -m "updates"
 
 Git push -u origin feature-branchname
