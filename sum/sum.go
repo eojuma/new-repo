@@ -36,3 +36,6 @@ func mod(a, b int) int {
 
 // The workflow is amazing and by the end of the month I
 //  should be able to understand at least 85 per cent of information pertaining Git.
+
+//They say that coding needs critical thinking not fast hands but then i think it neds both critical thinking and fast hands too.
+//What do you think?
