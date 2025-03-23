@@ -5,8 +5,8 @@ I will make short notes here on how to use git to keep track of every changes th
 
 This will be very appealing to my fellow Git beginners.
 
-# 21st March 2025
-# Branching in Git
+## 21st March 2025
+### Branching in Git
 A branch is basically a separate line of development of the codebase.
 
 I have learnt how to create git branches,how to add,commit and merge to the main branch.
