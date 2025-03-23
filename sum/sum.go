@@ -42,5 +42,3 @@ func mod(a, b int) int {
 
 //The first attempt to anything new is difficult,but then as days go by things get easier,clearer and eventually very familiar.
 //Do agree?
-
-///I am almost getting better at merging or rather getting the whole concept of branching.
