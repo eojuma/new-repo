@@ -1,26 +1,217 @@
-# New file
+# GIT AND WORKFLOW
 This file is basically for learning Git.
 
-I will make short notes here on how to use git to keep track of every changes that you make on your files.
+# Readme features
+Here are some features you can introduce to a README file using Markdown:
+##1. Headers
 
-This will be very appealing to my fellow Git beginners.
+    Use #, ##, or ### to create headings and subheadings for better organization.
+
+    text
+    # Project Title
+    ## Subheading
+    ### Smaller Subheading
+
+##2. Lists
+
+    Unordered Lists: Use -, *, or + for bullet points.
+
+text
+- Item 1
+- Item 2
+
+Ordered Lists: Use numbers followed by a period.
+
+    text
+    1. Step One
+    2. Step Two
+
+##3. Links
+
+    
+## To create hyperlinks on readme
+To create hyperlinks ion readme use the squre brackets defining the name of the link follwed by the hyperlink in parenthesis.
+### Example [Link Text](https://example.com)
+There are various hyperlinks and each has a different format for creation:
+###a. Basic Markdown Links
+
+    Standard syntax for links:
+
+text
+[Link Text](https://example.com)
+
+Example:
+
+    text
+    [Visit Google](https://www.google.com)
+
+###b. Linking to Sections Within the README
+
+    Use anchors (#) to link to specific sections of the README:
+
+text
+[Go to Features Section](#features)
+
+Ensure the target heading exists in the README:
+
+    text
+    ## Features
+
+###c. Linking to Files in the Repository
+
+    Link to other files or folders in your project:
+
+    text
+    [Documentation](./docs/README.md)
+
+    Use relative paths for files within the same repository.
+
+###d. Email Links
+
+    Use mailto: for email addresses:
+
+    text
+    [Contact Us](mailto:example@example.com)
+
+###e. Image Hyperlinks
+
+    Combine an image with a hyperlink:
+
+text
+[![Alt Text](image-url)](https://example.com)
+
+Example:
+
+    text
+    [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
+
+###f. Plain Text URLs
+
+    To display a URL as plain text without making it clickable, wrap it in backticks:
+
+    text
+    `https://example.com`
+
+###g. HTML Links
+
+    Use HTML tags for more customization (e.g., opening links in a new tab):
+
+    xml
+    <a href="https://example.com" target="_blank">Open Link</a>
+
+###h. Advanced Markdown with Descriptions
+
+    Provide context around the link:
+
+    text
+    For more details, see the [official documentation](https://docs.example.com).
+
+###i. Badges with Links
+
+    Add badges that link to external resources (e.g., CI/CD status, license):
+
+    text
+    [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
+
+###j. Linking to External Resources
+
+    Include links to APIs, tools, or other related projects:
+
+text
+[API Documentation](https://api.example.com/docs)
+
+
+   
+
+##4. Images
+
+    Include screenshots or diagrams.
+
+    text
+    ![Alt Text](image-url)
+
+##5. Code Blocks
+
+    Highlight code snippets using backticks.
+
+text
+undefined
+
+print("Hello, World!")
+
+    text
+    undefined
+
+##6. Tables
+
+    Create tables for structured data.
+
+    text
+    | Column A | Column B |
+    |----------|----------|
+    | Data A1  | Data B1  |
+    | Data A2  | Data B2  |
+
+##7. Task Lists
+
+    Add checklists for project milestones.
+
+    text
+    - [x] Completed Task
+    - [ ] Pending Task
+
+##8. Emphasis
+
+    Use * or _ for italic text and ** for bold text.
+
+    Combine both for bold and italic text.
+
+##9. Horizontal Lines
+
+    Separate sections with lines using ---, ***, or ___.
+
+    text
+    ---
+
+##10. Strikethrough
+
+    Strike out text using ~~.
+
+    text
+    ~~This text is crossed out~~
+
+##11. Anchors
+
+    Create links to specific sections within the README.
+
+    text
+    [Go to Subheading](#subheading)
+
+##12. Math Expressions
+
+    Render mathematical formulas using LaTeX-style syntax (if supported).
+
+By combining these features, you can create a visually appealing and highly informative README file!
+
+
 
 ## 21st March 2025
-### Branching in Git
+# GIT BRANCHING
 *A branch is basically a separate line of development of the codebase.
-
-*I have learnt how to create git branches,how to add,commit and merge to the main branch.
 
 ### Creating a new branch
 To create a new branch;use git checkout -b branchname--->This creates a new branch and immediately 
 
 switches to the newly created branch
+
 ### Listing all available branches on the current directory
 To check if the created branch is available;git branch,this will list all the branches on your current directory.
 
 To know which branching you're working on,after listing all the available branches,check the one with an asterisk(*)
+
 ### Switching to an existing branch
 To switch to an existing branch;git checkout branchname
+
 ### Git Branching workflow
 While on the main/master branch,switch to the feature branch created using(git checkout branchname).
 
@@ -74,13 +265,8 @@ At this point remember the changes have not been made remotely and the feature b
 ### All commits
 To have access to all commits to a given repo since existence,use git log
 
-[GitHub](https://github.com)
+## 23rd March 2025
 
-[Emailaddress](mailto:evansodhiambo658@gmail.com)
-
-https://web.whatsapp.com/
-
-[Email Me](mailto:evansodhiambo658@gmail.com)
 
 
 
