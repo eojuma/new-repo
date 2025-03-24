@@ -297,7 +297,7 @@ N/B:-To scroll the git log list use the space bar or the enter button.
 
 Copy the commit hash and use git reset #hashcode (This uncommit and unstage the changes made to the file but will not do away with them)
 
-To compltely do away with the commits and staging use git reset --hard #hashcode
+To completely do away with the commits and staging use git reset --hard #hashcode
 
 
 ### Reverting
