@@ -47,7 +47,7 @@ Example:
     text
     [Visit Google](https://www.google.com)
 
-###b. Linking to Sections Within the README
+### b. Linking to Sections Within the README
 
     Use anchors (#) to link to specific sections of the README:
 
@@ -59,7 +59,7 @@ Ensure the target heading exists in the README:
     text
     ## Features
 
-###c. Linking to Files in the Repository
+### c. Linking to Files in the Repository
 
     Link to other files or folders in your project:
 
@@ -68,14 +68,14 @@ Ensure the target heading exists in the README:
 
     Use relative paths for files within the same repository.
 
-###d. Email Links
+### d. Email Links
 
     Use mailto: for email addresses:
 
     text
     [Contact Us](mailto:example@example.com)
 
-###e. Image Hyperlinks
+### e. Image Hyperlinks
 
     Combine an image with a hyperlink:
 
@@ -87,35 +87,35 @@ Example:
     text
     [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
 
-###f. Plain Text URLs
+### f. Plain Text URLs
 
     To display a URL as plain text without making it clickable, wrap it in backticks:
 
     text
     `https://example.com`
 
-###g. HTML Links
+### g. HTML Links
 
     Use HTML tags for more customization (e.g., opening links in a new tab):
 
     xml
     <a href="https://example.com" target="_blank">Open Link</a>
 
-###h. Advanced Markdown with Descriptions
+### h. Advanced Markdown with Descriptions
 
     Provide context around the link:
 
     text
     For more details, see the [official documentation](https://docs.example.com).
 
-###i. Badges with Links
+### i. Badges with Links
 
     Add badges that link to external resources (e.g., CI/CD status, license):
 
     text
     [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://ci.example.com)
 
-###j. Linking to External Resources
+### j. Linking to External Resources
 
     Include links to APIs, tools, or other related projects:
 
@@ -125,14 +125,14 @@ text
 
    
 
-##4. Images
+## 4. Images
 
     Include screenshots or diagrams.
 
     text
     ![Alt Text](image-url)
 
-##5. Code Blocks
+## 5. Code Blocks
 
     Highlight code snippets using backticks.
 
@@ -144,7 +144,7 @@ print("Hello, World!")
     text
     undefined
 
-##6. Tables
+## 6. Tables
 
     Create tables for structured data.
 
@@ -154,7 +154,7 @@ print("Hello, World!")
     | Data A1  | Data B1  |
     | Data A2  | Data B2  |
 
-##7. Task Lists
+## 7. Task Lists
 
     Add checklists for project milestones.
 
@@ -162,34 +162,34 @@ print("Hello, World!")
     - [x] Completed Task
     - [ ] Pending Task
 
-##8. Emphasis
+## 8. Emphasis
 
     Use * or _ for italic text and ** for bold text.
 
     Combine both for bold and italic text.
 
-##9. Horizontal Lines
+## 9. Horizontal Lines
 
     Separate sections with lines using ---, ***, or ___.
 
     text
     ---
 
-##10. Strikethrough
+## 10. Strikethrough
 
     Strike out text using ~~.
 
     text
     ~~This text is crossed out~~
 
-##11. Anchors
+## 11. Anchors
 
     Create links to specific sections within the README.
 
     text
     [Go to Subheading](#subheading)
 
-##12. Math Expressions
+## 12. Math Expressions
 
     Render mathematical formulas using LaTeX-style syntax (if supported).
 
@@ -268,8 +268,32 @@ At this point remember the changes have not been made remotely and the feature b
 To have access to all commits to a given repo since existence,use git log
 
 
+## 23rd March 2025
 
+## Resetting or reverting staging and commit in Git(Undoing Git)
+### a.Staging
+When you add changes(staging) ready to be commited then you realize they are not the right changes you intended to stage then you can simply reverse this process using ### git reset
 
+### Workflow
+-git add filename
 
+-git reset / git reset filename
 
+### b.commit
+When you commit changes already staged ready to be pushed then you realize they are not the right changes you intended to commit then ypu can simply reverse this process to the initial status before staging using ### git reset HEAD~1
 
+### Workflow
+-git add filename
+
+-git commit -m "message"
+
+-git reset HEAD~1(This will unstage and uncommit the changes made)
+
+### Alternatively
+We can use the git log to obtain the commit hashes which can also be used to reverse the changes made on a file.
+
+N/B:-To scroll the git log list use the space bar or the enter button.
+
+Copy a commit hash and use git reset #hashcode (This uncommit and unstage the changes made to the file but will not do away with them)
+
+To compltely do away with the commits and staging use git reset --hard #hashcode
