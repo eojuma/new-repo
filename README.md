@@ -271,6 +271,7 @@ To have access to all commits to a given repo since existence,use git log
 ## 23rd March 2025
 
 ## Resetting or reverting staging and commit in Git(Undoing Git)
+### Resetting
 ### a.Staging
 When you add changes(staging) ready to be commited then you realize they are not the right changes you intended to stage then you can simply reverse this process using ### git reset
 
@@ -294,6 +295,14 @@ We can use the git log to obtain the commit hashes which can also be used to rev
 
 N/B:-To scroll the git log list use the space bar or the enter button.
 
-Copy a commit hash and use git reset #hashcode (This uncommit and unstage the changes made to the file but will not do away with them)
+Copy the commit hash and use git reset #hashcode (This uncommit and unstage the changes made to the file but will not do away with them)
 
 To compltely do away with the commits and staging use git reset --hard #hashcode
+
+
+### Reverting
+ Purpose of git revert: It is designed to undo committed changes by creating a new commit that reverses the effects of a previous commit. It does not affect uncommitted or staged changes.
+
+Scope: git revert works exclusively on commits, not on the staging area or untracked files.
+
+This is helpful to restore already pushed changes.
