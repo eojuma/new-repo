@@ -306,3 +306,5 @@ To completely do away with the commits and staging use git reset --hard #hashcod
 Scope: git revert works exclusively on commits, not on the staging area or untracked files.
 
 This is helpful to restore already pushed changes.
+
+Use git revert #commithash
