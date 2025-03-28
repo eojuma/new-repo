@@ -267,6 +267,10 @@ At this point remember the changes have not been made remotely and the feature b
 ### All commits
 To have access to all commits to a given repo since existence,use git log
 
+To scroll down to the next commit hashes yiu can always use the spacebar/enter buttons.Ypu can also choose to use shift+G to move down to the very last commit hash.
+
+To exit this long list you can always hit q.
+
 
 ## 23rd March 2025
 
